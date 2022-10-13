@@ -1,0 +1,72 @@
+.hmenu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    background-color: orangered;
+    height: 40px;
+}
+ul.hmenu>li>a{
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+}
+ul.hmenu>li>a:hover{
+    color: yellow;
+    font-weight: bolder;
+}
+ul.hmenu >li{
+    float:left;
+    margin: 0 5px;
+    position: relative;
+}
+ul.hmenu>li:hover>.sub-menu{
+    display: block;
+}
+.sub-menu{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    width: 150px;
+    position:absolute;
+    display:none;
+}
+.sub-menu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    background: url('b1.gif') no-repeat left center;
+    color: orangered;
+}
+.sub-menu>li>a:hover{
+    background: url('b2.gif') no-repeat left center;
+    color: red;
+    font-weight: bolder;
+}
+
+.div1{
+    display: flex;
+}
+
+.container{
+display: flex   ;
+}
+.container__div1{
+    width: 70%;
+    height: 400px;
+    background-color: pink;
+}
+.container__div2{
+    width: 30%;
+    height: 400px;
+    color: red;
+}
